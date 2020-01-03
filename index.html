@@ -6,28 +6,142 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Portfolio</title>
 </head>
-<body>
+<body class="body">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Sam Kuttenkuler</a>
+    <nav id="navbar"class="navbar navbar-expand-lg navbar-fixed-top">
+        <a class="navbar-brand" href="#"><img id="logo"src="./assets/images/samlogo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Contact</a>
             </li>
+            <li class="nav-item active">
+                    <a class="nav-link" id="resume-button"href="#">Resume</a>
+            </li>
           </ul>
+          <div class="vert-line2">&nbsp;</div>
+          <p class="nav-email">sam.kuttenk@gmail.com</p>
         </div>
       </nav>
-    <!-- Welcome Screen / Bio -->
+    <!-- Welcome Screen-->
+    <div class="section" id="welcome">
+        <div class="welcome-section">
+            <div class="intro">
+                    <h4>Hello, my name is</h4>
+                    <h1> Sam Kuttenkuler</h1>
+                    <h5> and I am a software developer.</h5>
+            </div>
+            
+            
+
+            
+        </div>
+    </div>
+    <!-- About Screen-->
+    <div class="section" id="about">
+      <h2 class="aboutme"> About Me</h2>
+      <hr class="about-line"> 
+      <div class="bio-section">
+          <div class="bio">
+                  <p>Full Stack Web Developer with a Bachelor’s in Music that brings a strong creative approach to not only the front end design but problem solving as well.
+                          Recently procuring certifications from Stanford University in Machine Learning as well as a certificate in Full Stack Web Development from UC Berkeley. 
+                          I utilize my creativity and knowledge of a variety of tools such as React, Django, AWS, Python, and Javascript to build incredibly dynamic and interactive 
+                          applications whether built for web or on mobile.  Applying my three years of self taught freelancing experience building and deploying web and mobile applications 
+                          for entertainers and new education from Berkeley to build the best experiences on all platforms.</p>
+          </div>
+          <div class="photo"><img id="headshot" src="./assets/images/headshot.png" alt="headshot"></div>
+
+          
+      </div>
+  </div>
     <!-- Projects -->
+    <div class="section" id="portfolio">
+        <h2 class="port-header">Portfolio</h2>
+          <hr class="about-line"> 
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-8 p-sm-0">
+                      <section>
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <a href="#" target="_blank">
+                              <div class="project-box">
+                                  <img src="assets/images/screen0.png" alt=""/>
+                                  <h5>FitME</h5>
+                              </div>
+                          </a>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <a href="#" target="_blank">
+                              <div class="project-box">
+                                  <img src="assets/images/screen.png" alt=""/>
+                                  <h5>Weather App</h5>
+                              </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <a href="#" target="_blank">
+                              <div class="project-box">
+                                  <img src="assets/images/screen2.png" alt=""/>
+                                  <h5>Simpsons Quiz</h5>
+                              </div>
+                          </a>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <a href="#" target="_blank">
+                              <div class="project-box">
+                                  <img src="assets/images/screen3.png" alt=""/>
+                                  <h5>Password Generator</h5>
+                              </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a href="bentonray.com" target="_blank">
+                              <div class="project-box">
+                                  <img src="assets/images/screen4.png" alt=""/>
+                                  <h5>Benton Ray</h5>
+                              </div>
+                          </a>
+                        </div>
+                      </div>
+                  </section>
+                </div>
+            </div>
+          </div>
+    </div>
     <!-- Contact -->
+    <div class="section" id="contact">
+        <div class="contact-section">
+
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <ul class="icons">
+              <li><i class="fa fa-github-alt" style="font-size:48px;color:#a5fe8e"></i></li>
+              <li><i class="fa fa-linkedin-square" style="font-size:50px;color:#a5fe8e"></i>
+
+            </ul>
+            <div class="vert-line">&nbsp;</div>
+        </footer>
+    </div>
 </body>
 </html>

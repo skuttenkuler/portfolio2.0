@@ -1,0 +1,157 @@
+.body{
+    background-color: rgb(24, 53, 72);
+}
+.navbar{
+    background-color: rgb(24, 53, 72);
+    margin: 0 0 10px 0;
+    z-index: 2;
+    
+   
+}
+
+.navbar a{
+    color: #a5fe8e;
+}
+.navbar li {
+    margin: 0 10px 0 10px;
+    padding-right:25px;
+}
+.section{
+    
+    height: 500px;
+    width: 100%;
+}
+#welcome{
+    margin-top: 240px;
+}
+#about{
+    margin-top: 200px;
+}
+#portfolio{
+    margin-top: 200px;
+}
+#contact{
+    margin-top: 200px;
+}
+#logo{
+    height: 225px;
+    width: 180px;
+    margin-left: 35px;
+    position: fixed;
+}
+#navbarNav{
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    font-size: 25px;
+  
+}
+#resume-button{
+    border: #a5fe8e solid 2px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+h1, h2, h4, h5, p{
+    padding-left: 150px;
+}
+.intro h1{
+    font-size: 100px;
+    color: rgb(158, 255, 254);
+    text-shadow: 5px 5px black;
+}
+.intro h4{
+    font-size: 50px;
+    color: rgb(158, 255, 254);
+    text-shadow: 5px 5px black;
+    padding-bottom: 50px;
+}
+.intro h5{
+    font-size: 35px;
+    color:#a5fe8e;
+    text-shadow: 2px 2px dimgray;
+    padding-left: 250px;
+}
+.bio{
+    width: 500px;
+    ;
+}
+.photo{
+    position: relative;
+    float: right;
+    right: 100px;
+    bottom: 400px;
+    
+}
+#headshot {
+    border-radius: 50%;
+    height:400px ;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 200px;
+    box-shadow: 0 0 20px rgb(158, 255, 254);
+}
+
+.vert-line{
+        width:3px;
+        background-color:#a5fe8e;
+        position:fixed;
+        height: 150px;
+        bottom:0;
+        left:60px;
+      
+    }
+.vert-line2{
+    width:3px;
+    background-color:#a5fe8e;
+    position:fixed;
+    height: 150px;
+    bottom:top;
+    right:60px;
+      
+}
+.nav-email{
+   writing-mode: vertical-rl;
+   text-orientation: upright;
+   color: white;
+   text-shadow: 0 0 5px #a5fe8e;
+   font-size: 15px;
+   position:fixed;
+   right: 35px;
+   top:130px;
+}
+
+.icons{
+    bottom: 150px;
+    position: fixed;
+    list-style: none;
+}
+.icons li{
+    padding-bottom: 15px;
+}
+.about-line{
+    border: 3px solid #a5fe8e;
+    width: 700px;
+    margin-left: 150px;
+}
+.aboutme{
+    color: #a5fe8e;
+    font-size: 40px;
+}
+.bio p{
+    color: #ccd5f5;
+    width: 900px;
+}
+.port-header{
+    color: #a5fe8e;
+    font-size: 40px;
+}
+.container{
+    width: 960;
+    
+
+}
+.project-box img{
+    width:300px;
+    height: 200px;
+}
