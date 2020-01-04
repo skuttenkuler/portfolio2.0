@@ -151,7 +151,23 @@ h1, h2, h4, h5, p{
     
 
 }
+#projects{
+   margin-left: 25%;
+   margin-top: 150px;
+}
+#projects h5{
+    margin-top:10px;
+    margin-right: 20px;
+    color: white;
+    text-shadow: 0 0 5px #a5fe8e;
+ }
 .project-box img{
-    width:300px;
+    width:350px;
     height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(158, 255, 254);
+}
+#contact{
+    margin-top: 800px;
+    height: 600px;
 }
