@@ -74,7 +74,7 @@
                       <section>
                       <div class="row">
                         <div class="col-md-6 mb-4 ">
-                          <a href="#" target="_blank">
+                          <a href="https://skuttenkuler.github.io/FitME/" target="_blank">
                               <div class="project-box">
                                   <img src="assets/images/screen0.png" alt=""/>
                                   <h5>FitME</h5>
@@ -82,7 +82,7 @@
                           </a>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <a href="#" target="_blank">
+                            <a href="https://skuttenkuler.github.io/Weather/" target="_blank">
                               <div class="project-box">
                                   <img src="assets/images/screen.png" alt=""/>
                                   <h5>Weather App</h5>
@@ -92,7 +92,7 @@
                       </div>
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <a href="#" target="_blank">
+                          <a href="https://skuttenkuler.github.io/Code-Quiz/" target="_blank">
                               <div class="project-box">
                                   <img src="assets/images/screen2.png" alt=""/>
                                   <h5>Simpsons Quiz</h5>
@@ -100,7 +100,7 @@
                           </a>
                         </div>
                         <div class="col-md-6 mb-4">
-                          <a href="#" target="_blank">
+                          <a href="https://skuttenkuler.github.io/Password-Generator/" target="_blank">
                               <div class="project-box">
                                   <img src="assets/images/screen3.png" alt=""/>
                                   <h5>Password Generator</h5>
@@ -154,5 +154,17 @@
             <div class="vert-line">&nbsp;</div>
         </footer>
     </div>
-</body>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    $(window).scroll(function() {     
+      var scroll = $(window).scrollTop();
+      if (scroll > 0) {
+        $("#navbar").addClass("active");
+      }
+      else {
+        $("#navbar").removeClass("active");
+      }
+      });
+</script>
 </html>
