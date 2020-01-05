@@ -74,7 +74,7 @@ h1, h2, h4, h5, p{
 }
 .bio{
     width: 500px;
-    ;
+    text-indent:40px;
 }
 .photo{
     position: relative;

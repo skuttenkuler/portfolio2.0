@@ -11,26 +11,26 @@
 
     <title>Portfolio</title>
 </head>
-<body class="body">
+<body class="body" id="body">
     <!-- Navbar -->
     <nav id="navbar"class="navbar navbar-expand-lg navbar-fixed-top">
-        <a class="navbar-brand" href="#"><img id="logo"src="./assets/images/samlogo.png"></a>
+        <a class="navbar-brand" href="#body"><img id="logo"src="./assets/images/samlogo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#projects-page">Projects</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item active">
-                    <a class="nav-link" id="resume-button"href="#">Resume</a>
+                    <a class="nav-link" id="resume-button"href="#" onclick="window.open('cv-sk.pdf', '_blank', 'fullscreend=yes'); return false;">Resume</a>
             </li>
           </ul>
           <div class="vert-line2">&nbsp;</div>
@@ -65,8 +65,8 @@
       </div>
   </div>
     <!-- Projects -->
-    <div class="section" id="portfolio">
-        <h2 class="port-header">Portfolio</h2>
+    <div class="section" id="projects-page">
+        <h2 class="port-header">Projects</h2>
           <hr class="about-line"> 
           <div class="container" id="projects">
             <div class="row">
@@ -110,7 +110,7 @@
                       </div>
                       <div class="row">
                         <div class="col-md-6">
-                          <a href="bentonray.com" target="_blank">
+                          <a href="http://bentonray.com" target="_blank">
                               <div class="project-box">
                                   <img src="assets/images/screen4.png" alt=""/>
                                   <h5>Benton Ray</h5>
