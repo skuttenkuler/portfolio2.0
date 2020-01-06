@@ -174,8 +174,61 @@ h1, h2, h4, h5, p{
     height: 200px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgb(158, 255, 254);
+
 }
 #contact{
     margin-top: 800px;
     height: 600px;
+    margin-bottom:100px;
+    display: inline-flexbox;
+}
+#contact-form{
+    display: relative;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: #a5fe8e;
+}
+
+input[type=text]{
+    outline: none !important;
+    border: 1px solid #dddddd;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+input[type=email]{
+    outline: none !important;
+    border: 1px solid #dddddd;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+textarea{
+    outline: none !important;
+    border: 1px solid #dddddd;
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+#contact-button {
+    display: flex;
+    background-color: rgb(24, 53, 72);
+    box-shadow: 0 0 20px rgb(158, 255, 254);
+    border-radius: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: #a5fe8e;
+    margin-top: 20px;
+    
+
+  
+    
 }
